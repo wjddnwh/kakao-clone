@@ -1,0 +1,51 @@
+.settings-list {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+}
+
+.settings__setting {
+  padding: 20px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+  justify-content: space-between;
+  position: relative;
+}
+
+.settings__setting:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+.settings-list2 {
+  margin-top: 30px;
+}
+
+.settings__setting-column {
+}
+
+.red-new {
+  font-size: 14px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  font-weight: 600;
+  top: 23px;
+  left: 120px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
